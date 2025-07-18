@@ -122,17 +122,18 @@ p {
 
 .hero__content h1{
     width: 80%;
+    margin-bottom: 22px;
 }
 
-.hero__content p {
-  width: 60%;
-  margin: 22px 0 56px;
+.hero__content p{
+  width: 70%;
 }
 
 .hero__buttons {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin: 56px 0 52px;
 }
 
 .hero__content button:first-child {
@@ -181,4 +182,28 @@ p {
   width: fit-content;
   height: 100%;
   object-fit: contain;
+}
+
+/* Companies Section  */
+
+.companiesSection {
+  background-color: #f5f6f8;
+}
+
+.companies {
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.companies p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.companies__logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
