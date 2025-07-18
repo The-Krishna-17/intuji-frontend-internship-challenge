@@ -1,4 +1,5 @@
-/* Base Setup */
+/* ================================ Base Setup ==================================== */
+
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
 * {
@@ -51,16 +52,133 @@ p {
   padding: 0 18px;
 }
 
-@media all and (min-width: 992px) {
-  .container {
-    max-width: 960px;
-    padding: 0 20px;
-  }
+
+/* ========================= Main Style =============================== */
+
+/* Navbar Style  */
+
+.header {
+  background: linear-gradient(to left, #62bada, #c9e7f2);
 }
 
-@media all and (min-width: 1400px) {
-  .container {
-    padding: 0 10px;
-    max-width: 1320px;
-  }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.nav__logo{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  font-size: 14px;
+}
+
+.nav__list li:first-child, .nav__list li:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav__buttons {
+  display: flex;
+  gap: 50px;
+}
+
+.nav__buttons button:first-child {
+  border: none;
+  background: none;
+}
+
+.nav__buttons button:nth-child(2) {
+  border: none;
+  background-color: #4f46ba;
+  color: #fff;
+  padding: 17px 36px;
+}
+
+/* Hero Styles */
+
+.heroSection {
+  background: linear-gradient(to left, #62bada, #c9e7f2);
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  height: 700px;
+}
+
+.hero__content {
+  width: 60%;
+  padding: 150px 0 80px;
+}
+
+.hero__content h1{
+    width: 80%;
+}
+
+.hero__content p {
+  width: 60%;
+  margin: 22px 0 56px;
+}
+
+.hero__buttons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero__content button:first-child {
+  background-color: #4f46ba;
+  color: #fff;
+  border-radius: 47px;
+  padding: 15px 38px;
+  border: none;
+}
+
+.hero__content button:nth-child(2) {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero__content button i {
+  font-size: 50px;
+  color: #22d497;
+}
+
+.hero__bottomContent {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero__bottomContent p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+}
+
+.hero__bottomContent p i{
+    color: #4f46ba;
+}
+
+.hero__img {
+  width: 30%;
+}
+
+.hero__img img {
+  width: fit-content;
+  height: 100%;
+  object-fit: contain;
 }
