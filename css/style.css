@@ -453,7 +453,8 @@ p {
   height: 345px;
 }
 
-.features2__card p:nth-child(2), .features2__sideCard p{
+.features2__card p:nth-child(2),
+.features2__sideCard p {
   font-size: 22px;
   font-weight: 800;
 }
@@ -468,4 +469,49 @@ p {
   background-color: #fff;
   padding: 42px 32px;
   border-radius: 10px;
+}
+
+/* Testimonials Section */
+
+.testomonial {
+  padding: 140px 18px;
+}
+
+.testomonial__content p {
+  width: 50%;
+  padding: 37px 0 74px;
+}
+
+.testomonial__cards {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.testomonial__card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.testomonial__cardContent {
+  padding: 60px 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.testomonial__cardContentImg {
+  padding: 24px 15px 24px 0;
+  width: 30%;
+}
+
+.testomonial__cardContentImg img {
+  width: 100%;
 }
