@@ -239,3 +239,36 @@ p {
     font-size: 14px;
 }
 
+/* Automated Portfolio Tracking Features Card Section  */
+
+.features__cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 110px;
+}
+
+.features__card {
+  border: 1px solid #dbe4e9;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  height: 310px;
+  gap: 17px;
+  background-color: #fff;
+}
+
+.features__card h3{
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.features__card p{
+    font-size: 14px;
+    text-align: center;
+}
+
