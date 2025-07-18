@@ -233,6 +233,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  font-weight: 600;
 }
 
 .portfolio__card p {
@@ -316,7 +317,7 @@ p {
   margin-left: 5%;
 }
 
-.track__card img{
+.track__card img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -332,7 +333,7 @@ p {
 
 .track__amount {
   font-weight: 800;
-  color: #3734A9;
+  color: #3734a9;
   font-weight: 700;
   background-color: #ebebf7;
   width: fit-content;
@@ -349,8 +350,8 @@ p {
   width: 45%;
 }
 
-.track__content p:first-child{
-  color: #3734A9;
+.track__content p:first-child {
+  color: #3734a9;
   font-weight: 700;
   font-size: 14px;
 }
@@ -379,4 +380,40 @@ p {
 
 .track__check i {
   color: #fdbc64;
+}
+
+/* Save Money with Proper Transaction Section */
+
+.transaction {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.transaction__content {
+  width: 50%;
+}
+
+.transaction__content h2 {
+  width: 80%;
+  margin-bottom: 14px;
+}
+
+.transaction__card {
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  padding: 38px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 35px;
+  font-weight: 600;
+}
+
+.transaction__img {
+  width: 50%;
+}
+
+.transaction__img img {
+  width: 100%;
 }
