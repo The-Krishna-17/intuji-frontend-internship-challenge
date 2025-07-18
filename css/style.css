@@ -52,7 +52,6 @@ p {
   padding: 0 18px;
 }
 
-
 /* ========================= Main Style =============================== */
 
 /* Navbar Style  */
@@ -68,9 +67,9 @@ p {
   padding-top: 38px;
 }
 
-.nav__logo{
-    font-weight: 700;
-    font-size: 20px;
+.nav__logo {
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .nav__list {
@@ -80,10 +79,11 @@ p {
   font-size: 14px;
 }
 
-.nav__list li:first-child, .nav__list li:nth-child(2){
-    display: flex;
-    align-items: center;
-    gap: 12px;
+.nav__list li:first-child,
+.nav__list li:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .nav__buttons {
@@ -120,12 +120,12 @@ p {
   padding: 150px 0 80px;
 }
 
-.hero__content h1{
-    width: 80%;
-    margin-bottom: 22px;
+.hero__content h1 {
+  width: 80%;
+  margin-bottom: 22px;
 }
 
-.hero__content p{
+.hero__content p {
   width: 70%;
 }
 
@@ -158,20 +158,20 @@ p {
 }
 
 .hero__bottomContent {
-    display: flex;
-    align-items: center;
-    gap: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
-.hero__bottomContent p{
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    width: fit-content;
+.hero__bottomContent p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
 }
 
-.hero__bottomContent p i{
-    color: #4f46ba;
+.hero__bottomContent p i {
+  color: #4f46ba;
 }
 
 .hero__img {
@@ -207,3 +207,35 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+
+/* Automated Portfolio Tracking Section */
+
+.portfolio {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 72px 18px;
+}
+
+.portfolio__content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.portfolio__card {
+  width: 35%;
+  background-color: #c4c4c4;
+  padding: 38px 34px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.portfolio__card p{
+    font-size: 14px;
+}
+
