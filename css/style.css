@@ -700,7 +700,7 @@ p {
   font-size: 22px;
 }
 
-.FAQ__questions p:nth-child(3){
+.FAQ__questions p:nth-child(3) {
   font-weight: 600;
 }
 
@@ -712,4 +712,41 @@ p {
   padding: 22px;
   color: #fff;
   margin-top: 90px;
+}
+
+/* Discover Section  */
+
+.discoverSection {
+  padding: 150px 60px;
+}
+
+.discover {
+  background: url(../assets/images/Discover__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  border-radius: 20px;
+}
+
+.discover h2 {
+  color: #fff;
+  text-align: center;
+  width: 60%;
+}
+
+.discover button {
+  padding: 20px 40px;
+  background-color: #ff7f5c;
+  border-radius: 10px;
+  border: none;
+  width: fit-content;
+  font-weight: 700;
+  color: #fff;
+  font-size: 18px;
 }
