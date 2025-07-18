@@ -568,7 +568,6 @@ p {
   color: #b1ca16;
 }
 
-
 /* Recent Blogs Section  */
 
 .blog {
@@ -590,11 +589,13 @@ p {
   gap: 6px;
 }
 
-.blog__content p:first-child, .blog__cardContent p:first-child{
+.blog__content p:first-child,
+.blog__cardContent p:first-child {
   font-weight: 700;
 }
 
-.blog__content p:nth-child(2), .blog__cardContent p:nth-child(2) {
+.blog__content p:nth-child(2),
+.blog__cardContent p:nth-child(2) {
   font-weight: 700;
   font-size: 29px;
   line-height: 1.2;
@@ -639,4 +640,76 @@ p {
 
 .blog__cardImg img {
   width: 100%;
+}
+
+/* FAQ Section  */
+
+.FAQSection h2 {
+  margin-top: 130px;
+  width: 45%;
+}
+
+.FAQ {
+  display: flex;
+  margin-top: 70px;
+  gap: 48px;
+  width: 100%;
+}
+
+.FAQ__contents {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 70%;
+}
+
+.FAQ__content {
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  padding: 25px 23px;
+}
+
+.FAQ__content p:first-child {
+  font-weight: 800;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 23px;
+}
+
+.FAQ__questions {
+  border: 1px solid #cfcfcf;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+  padding: 60px 40px;
+  gap: 32px;
+  width: 35%;
+}
+
+.FAQ__questions i {
+  font-size: 52px;
+}
+
+.FAQ__questions p:nth-child(2) {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.FAQ__questions p:nth-child(3){
+  font-weight: 600;
+}
+
+.FAQ__questions button {
+  width: 100%;
+  border: none;
+  background-color: #ff7f5c;
+  border: none;
+  padding: 22px;
+  color: #fff;
+  margin-top: 90px;
 }
