@@ -16,6 +16,20 @@ document.addEventListener("click", (e) => {
   });
 });
 
+//For responsive navbar
+
+const toggleBtn = document.querySelector(".nav__toggle");
+const sideBar = document.querySelector(".nav__sideBar");
+const closeBtn = document.querySelector(".close-btn");
+
+toggleBtn.addEventListener("click", () => {
+  sideBar.classList.toggle("show");
+});
+
+closeBtn.addEventListener("click", () => {
+  sideBar.classList.remove("show");
+});
+
 //Carousal effect logic for testomonial section
 
 const cardsContainer = document.querySelector(".testomonial__cards");
