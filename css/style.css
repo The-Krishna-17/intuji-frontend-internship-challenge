@@ -271,10 +271,31 @@ button:hover {
   font-size: 24px;
 }
 
+.companies__logosWrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
 .companies__logos {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 40px;
+  animation: scrollLeft 20s linear infinite;
+  white-space: nowrap;
+}
+
+.companies__logos img {
+  user-select: none;
+  pointer-events: none;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* Automated Portfolio Tracking Section */
