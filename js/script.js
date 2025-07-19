@@ -79,3 +79,25 @@ dots.forEach((dot) => {
     updateActiveDot(index);
   });
 });
+
+// FAQ show more logic
+
+const buttons = document.querySelectorAll(".FAQ__button");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const content = button
+      .closest(".FAQ__content")
+      .querySelector(".FAQ__clickContent");
+
+    content.classList.toggle("show");
+
+    if (content.classList.contains("show")) {
+      button.classList.remove("fa-plus");
+      button.classList.add("fa-minus");
+    } else {
+      button.classList.remove("fa-minus");
+      button.classList.add("fa-plus");
+    }
+  });
+});

@@ -915,6 +915,19 @@ button:hover {
   background-color: #e15b29;
 }
 
+.FAQ__clickContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 0;
+  margin-top: 10px;
+}
+
+.FAQ__clickContent.show {
+  padding: 10px 0;
+  max-height: 300px;
+}
+
 /* Discover Section  */
 
 .discoverSection {
