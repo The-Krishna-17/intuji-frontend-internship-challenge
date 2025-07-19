@@ -766,6 +766,21 @@ button:hover {
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .track__card1 {
+    margin-left: 5%;
+  }
+  .track__card2 {
+    margin-left: 10%;
+  }
+  .track__card3 {
+    margin-left: 15%;
+  }
+  .track__card4 {
+    margin-left: 5%;
+  }
+}
+
 /* Save Money with Proper Transaction Section */
 
 .transaction {
@@ -1618,6 +1633,19 @@ button:hover {
 
 @media (min-width: 768px) and (max-width: 992px) {
   .join {
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+
+  .join input {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .join {
     flex-direction: column;
     align-items: start;
     width: 100%;
