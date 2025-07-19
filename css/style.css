@@ -26,6 +26,18 @@ ul {
 a {
   text-decoration: none;
   color: #1b1b1b;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+a:hover {
+  color: #4f46ba;
+  transform: translateY(-2px);
+}
+
+i {
+  cursor: pointer;
 }
 
 h1,
@@ -44,6 +56,15 @@ h2 {
 
 p {
   font-size: clamp(14px, 0.875rem + (1vw - 7.68px) * 0.1736, 16px);
+}
+
+button {
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
 }
 
 .container {
@@ -79,13 +100,6 @@ p {
   font-size: 14px;
 }
 
-.nav__list li:first-child,
-.nav__list li:nth-child(2) {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
 .nav__buttons {
   display: flex;
   gap: 50px;
@@ -94,6 +108,13 @@ p {
 .nav__buttons button:first-child {
   border: none;
   background: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.nav__buttons button:first-child:hover {
+  color: #4f46ba;
+  transform: translateY(-2px);
 }
 
 .nav__buttons button:nth-child(2) {
@@ -101,6 +122,50 @@ p {
   background-color: #4f46ba;
   color: #fff;
   padding: 17px 36px;
+}
+
+.nav__buttons button:nth-child(2):hover {
+  background-color: #3734a9;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dropdown__toggle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.dropdown__menu {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown__menu.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown__menu li a {
+  padding: 10px 16px;
+  color: #000;
+}
+
+.dropdown__menu li a:hover {
+  background-color: #3734a9;
+  color: #fff;
 }
 
 /* Hero Styles */
@@ -142,6 +207,10 @@ p {
   border-radius: 47px;
   padding: 15px 38px;
   border: none;
+}
+
+.hero__content button:first-child:hover {
+  background-color: #3734a9;
 }
 
 .hero__content button:nth-child(2) {
@@ -714,6 +783,10 @@ p {
   margin-top: 90px;
 }
 
+.FAQ__questions button:hover {
+  background-color: #e15b29;
+}
+
 /* Discover Section  */
 
 .discoverSection {
@@ -749,6 +822,10 @@ p {
   font-weight: 700;
   color: #fff;
   font-size: 18px;
+}
+
+.discover button:hover {
+  background-color: #e15b29;
 }
 
 /* Footer Section */
@@ -787,7 +864,7 @@ p {
   font-size: 21px;
 }
 
-.footer__content a{
+.footer__content a {
   font-weight: 500;
 }
 
@@ -803,10 +880,14 @@ p {
 }
 
 .join button {
-  background-color: #3734a9;
+  background-color: #4f46ba;
   padding: 14px 44px;
   border: none;
   color: #fff;
+}
+
+.join button:hover {
+  background-color: #3734a9;
 }
 
 .footer__icon {
