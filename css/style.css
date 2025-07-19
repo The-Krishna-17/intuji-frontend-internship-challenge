@@ -393,6 +393,21 @@ button:hover {
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .hero__img {
+    width: 100%;
+  }
+
+  .hero__content h1,
+  .hero__content p {
+    width: 100%;
+  }
+
+  .hero__content {
+    width: 100%;
+  }
+}
+
 /* Companies Section  */
 
 .companiesSection {
@@ -500,6 +515,16 @@ button:hover {
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .portfolio__content {
+    width: 50%;
+  }
+
+  .portfolio__card {
+    width: 45%;
+  }
+}
+
 /* Automated Portfolio Tracking Features Card Section  */
 
 .features__cards {
@@ -543,6 +568,17 @@ button:hover {
 @media (max-width: 576px) {
   .features__cards {
     flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .features__cards {
+    flex-wrap: wrap;
+  }
+
+  .features__card {
+    width: 30%;
+    height: 400px;
   }
 }
 
@@ -696,6 +732,40 @@ button:hover {
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .track {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .track__box {
+    width: 100%;
+    padding: 50px 10px;
+  }
+
+  .track__card {
+    width: 85%;
+  }
+
+  .track__content {
+    width: 100%;
+    margin: 60px 0;
+  }
+
+  .track__card1 {
+    margin-left: 5%;
+  }
+  .track__card2 {
+    margin-left: 10%;
+  }
+  .track__card3 {
+    margin-left: 15%;
+  }
+  .track__card4 {
+    margin-left: 5%;
+  }
+}
+
 /* Save Money with Proper Transaction Section */
 
 .transaction {
@@ -757,6 +827,27 @@ button:hover {
   .transaction__content h2,
   .transaction__content p:nth-child(3) {
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .transaction {
+    flex-direction: column;
+    margin: 10px 0 60px;
+  }
+
+  .transaction__img {
+    display: none;
+  }
+
+  .transaction__content,
+  .transaction__content h2,
+  .transaction__content p:nth-child(3) {
+    width: 100%;
+  }
+
+  .transaction__card {
+    width: 70%;
   }
 }
 
@@ -835,6 +926,26 @@ button:hover {
 
   .features2__cards {
     flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .feature2__content p {
+    width: 100%;
+  }
+
+  .features2__cards {
+    flex-direction: column;
+  }
+
+  .features2__card {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .features2__sideCards {
+    width: 100%;
+    flex-direction: row;
   }
 }
 
@@ -966,6 +1077,40 @@ button:hover {
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .testomonial__content p {
+    width: 100%;
+  }
+
+  .testomonial__card {
+    flex: 0 0 80%;
+    max-width: 70%;
+    flex-direction: column;
+  }
+
+  .testomonial__cardContent {
+    width: 100%;
+  }
+
+  .testomonial__cardContentImg {
+    display: none;
+  }
+
+  .img__smScreen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .img__smScreen img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
 /* Banner Section  */
 
 .bannerSection {
@@ -1055,6 +1200,29 @@ button:hover {
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .banner__content p {
+    text-align: center;
+  }
+
+  .vertical__line {
+    display: none;
+  }
+
+  .horizontal__line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #3d3d3d;
+    margin: 12px 0;
+  }
+}
+
 /* Recent Blogs Section  */
 
 .blog {
@@ -1140,6 +1308,20 @@ button:hover {
 @media (max-width: 576px) {
   .blog__img {
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .blog__cardContent {
+    padding: 20px 10px;
+  }
+
+  .blog__cardContent p:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .blog__img img {
+    width: 100%;
   }
 }
 
@@ -1253,6 +1435,17 @@ button:hover {
     width: 100%;
   }
 
+  .FAQ {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .FAQSection h2,
+  .FAQ__contents,
+  .FAQ__questions {
+    width: 100%;
+  }
   .FAQ {
     flex-direction: column;
   }
@@ -1412,6 +1605,18 @@ button:hover {
     font-size: 21px;
   }
 
+  .join {
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+
+  .join input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
   .join {
     flex-direction: column;
     align-items: start;
