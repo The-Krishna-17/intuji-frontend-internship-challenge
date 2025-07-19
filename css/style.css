@@ -324,6 +324,13 @@ button:hover {
   flex-direction: column;
   gap: 18px;
   font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio__card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .portfolio__card p {
@@ -349,6 +356,13 @@ button:hover {
   height: 310px;
   gap: 17px;
   background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .features__card h3 {
@@ -392,6 +406,13 @@ button:hover {
   margin-bottom: 20px;
   position: relative;
   width: 433px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.track__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .track__card1 {
@@ -498,6 +519,13 @@ button:hover {
   gap: 14px;
   margin-top: 35px;
   font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transaction__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .transaction__img {
@@ -541,6 +569,13 @@ button:hover {
   background-color: #fff;
   width: 50%;
   height: 345px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features2__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .features2__card p:nth-child(2),
@@ -553,12 +588,20 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 32px;
+
 }
 
 .features2__sideCard {
   background-color: #fff;
   padding: 42px 32px;
   border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features2__sideCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 /* Testimonials Section */
@@ -585,6 +628,13 @@ button:hover {
   border-radius: 10px;
   width: 100%;
   align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testomonial__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .testomonial__cardContent {
@@ -620,7 +670,6 @@ button:hover {
 
 .banner__content p {
   font-size: 19px;
-  /* width: 45%; */
 }
 
 .vertical-line {
@@ -713,6 +762,13 @@ button:hover {
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .blog__cardContent {
@@ -758,6 +814,13 @@ button:hover {
   border: 1px solid #cfcfcf;
   border-radius: 10px;
   padding: 25px 23px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.FAQ__content:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .FAQ__content p:first-child {
@@ -779,6 +842,13 @@ button:hover {
   padding: 60px 40px;
   gap: 32px;
   width: 35%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.FAQ__questions:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .FAQ__questions i {
